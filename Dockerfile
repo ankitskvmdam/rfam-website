@@ -1,5 +1,5 @@
 # Base image https://hub.docker.com/_/perl/
-FROM perl:latest
+FROM perl:5.26
 
 # install cpanm
 RUN curl -L http://cpanmin.us | perl - App::cpanminus
